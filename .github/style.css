@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  background-color:rgba(232,217,217,.3);
+}
+
+html, 
+header > div {
+  padding: 0 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  list-style: none;
+}
+
+nav {
+  width: 600px;
+}
+
+nav u1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+.lnk-button {
+  
+  color: black;
+  font-family: Poppins;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+h1,
+h2
+{
+ text-align: center;
+}
+
+#introduction {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-evenly;
+  margin: 0 0 50px 0;
+  padding: 100px 200px;
+  height: 300px
+}
+.intro {
+  text-align: center;
+  padding: 10px 120px
+}
+.plans {
+  background-color: #FB3B49;
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+}
+.links {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-around;
+}
+.join {
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.caption {
+  background-color:rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+  font-style: italic;
+}
+.hexagon {
+  margin: 0 300px 0 300px ;
+padding: 50px;
+  width: 30%;
+}
+.tool {
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  margin: 0 100px 0 100px;
+  padding: 10px 50px
+}
+#structure {
+ display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-evenly;
+}
+.boxes {
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin:50px 5% 0 5%;
+  padding: 20px;
+  width: 20%;
+}
+h3 {
+  color:#ED1C24;
+  font-size: 0.9em;
+}
+.feature-boxes {
+  font-size: 0.8em;
+}
+.btn {
+  color:white;
+  background-color:black;
+  box-shadow:8px 8px 0 rgba(128,83,35,.2);
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+	flex-direction: row;
+  justify-content: center;
+	align-items: center;
+}
